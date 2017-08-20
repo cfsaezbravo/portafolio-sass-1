@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: $fuente;
+}
+
+body{
+	background-color: #E3E3E3;
+}
+
+nav{
+ 	background-color: transparent !important;
+ 	.brand-logo{
+	margin-left: 20px;
+	}
+	.btn-large{
+	background-color: $botones;
+	}
+}
+
+.fuente-nav{
+	font-size: $tamano_fuente;
+}
+
+
+.dropdown-content{
+	li{
+	 a{
+	font-size: 13px;
+	color: black;
+		}
+	}  
+}
+
+.slider{
+	top: 0px;
+	position: absolute;
+	.slides{
+		li{
+			height:80vh;
+		}
+	.titulo-slide{
+			font-weight: bolder;
+			font-size: 70px;
+		}
+	.parr-slide{
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+}
+
+.contenedor{
+	z-index:2;
+	position:relative;
+	border-radius: $borde-imagen;
+	width:90%;
+	top: 430px;
+	left: 70px;
+	padding-bottom:40px;
+	padding-top: 40px;
+	.parr-caja{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	h6{
+		margin-top:10px;
+		margin-bottom: 50px;
+	.text{
+		margin-bottom:60px;
+    .cont-plomo{//no pesca colores
+		background-color:$color_plomo;
+	.titulo-card{
+		color:$botones;
+	            }
+            }
+		}  
+	}	
+}
+
+@media (max-width:425px){
+	.contenedor{
+		width:100%;
+		margin-left:-70px;
+	}
+}
+
+//no logré anidar los iconos, es por eso que están separados, acá busco darle colores distintos, rosado, azul y verde.
+.fa.fa-th{
+	color:$botones;
+}
+
+.fa.fa-th-list{
+	color:$color_azul;
+}
+
+.fa.fa-bars{
+	color: $color_verde;
+}
+
+.clientes{
+	width: 100px;
+	box-shadow: $sombra;
+}
+
+.blog{
+	box-shadow: $sombra;
+}
+
+.sec-newsletter{
+	background:url("../img/about.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+ .img-portfolio{
+ 	border-radius: $borde-imagen;
+ }
+
+ .contenedor1{
+ 	background-color:white;
+ 	 box-shadow: $sombra;
+ }
+
+ .contenedor2{
+ 	background:url('../img/img_city.jpg');
+ 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 90%;
+    position: relative;
+    top: 430px;
+    box-shadow:$sombra;
+ }
+
+ @media (max-width:425px){
+ 	.contenedor2{
+ 		width:100%;
+ 	}
+ }
+
+ .cont-plomo.contenedor6{
+ 	background-color:$color_plomo;
+ 	box-shadow:$sombra;
+
+ }
+
+ .portfolio{
+ 	background-color:white;
+ 	box-shadow:$sombra;
+ }
+
+ @media (max-width:425px){
+ 	.portfolio{
+ 		margin-top:-95px;;
+ 	}
+ }
+
+ .team{
+ 	border-radius:$borde-imagen;
+ 	width: 85%;
+ 	box-shadow:$sombra;
+ }
+
+ .form-newsletter{
+ 	background-color:white;
+ 	border-radius:$borde-imagen;
+
+ }
+
+ .fuente{
+ 	background-color: $botones;
+ }
+
+ .numero{
+ 	font-weight: bolder;
+ 	font-size: 40px;
+ 	.negrita{
+ 		color:black;
+ 		font-weight:bolder;
+ 	}
+ }
+
+ .card.card1{
+ 	background-color:$color_plomo;
+ }
+
+ .titulo-card{
+	color:$botones;
+}
+
+ .text-white{
+ 	color:grey;
+ }
+
+ .suscripcion{
+	color:white;
+}
+
+ form{
+ 	background-color:white;
+ 	border-radius:$borde-imagen;
+ 	margin-top:20px;
+ 	box-shadow:$sombra;
+	.caja-rosada{
+	 	background-color:$botones;
+	 	padding:20px;
+	 	color:white;
+	 	border-radius:$borde-imagen;
+	 	box-shadow:$sombra;
+ 	}
+ }
+
+
+.contenedor-decima-seccion{
+	background:url('../img/img_city.jpg');
+ 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90%;
+    position: relative;
+    top: 430px;   
+}
+
+@media (max-width:425px){
+ 	.contenedor-decima-seccion{
+ 		width:100%;
+ 	}
+ }
+
+
+
+.text-blanco{
+	color:white;
+	.text-blanco-bolder{
+		font-weight:bolder;
+	}
+}
+
+.fuente-titulos{
+	font-family:$fuente-titulos;
+	font-weight:bolder;
+}
+
+//no logré anidarlos con sus padres por eso están por separado. (colores a iconos redes sociales y titulos)
+
+.rosado{
+	color:$botones;
+}
+.calipso{
+	color:$color_azul;
+}
+
+.rojo{
+	color:$color_rojo;
+}
+
+
+.facebook{
+	color:$facebook;
+}
+
+.twitter{
+	color:$twitter;
+}
+
+.linkedin{
+	color:$linkedin;
+}
+
+.google{
+	color:$google;
+}
+
+.dribbble{
+	color:$dribbble;
+}
+
+.pinterest{
+	color:$pinterest;
+}
+
+.img-portfolio{
+	box-shadow:$sombra;
+}
+
+ .footer{
+ 	background-color:$color_footer;
+ 	color:white;
+ 	.enlaces-footer{
+	color:$color_plomo;
+	
+	}
+ }
+
+.enlaces-footer:hover{
+	color:$botones;
+	   }
